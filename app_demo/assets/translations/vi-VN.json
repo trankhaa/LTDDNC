@@ -1,0 +1,10 @@
+{
+  "health_news_title": "Tin Tức Sức Khỏe",
+  "health_news_description": "Cập nhật mới nhất từ thế giới y khoa và sức khỏe",
+  "loading": "Đang tải bài viết...",
+  "api_error": "Lỗi API",
+  "connection_error": "Lỗi kết nối, vui lòng kiểm tra mạng của bạn",
+  "no_articles": "Hiện không tìm thấy bài viết nào.",
+  "unknown_source": "Không rõ nguồn",
+  "read_more": "Đọc thêm"
+}

@@ -1,0 +1,144 @@
+﻿@model IEnumerable<backend.Models.Entities.User>
+
+@{
+    ViewData["Title"] = "Quản lý Người dùng";
+}
+
+<div class="container-fluid px-4 py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="mb-1 text-primary fw-bold" style="letter-spacing:1px;">@ViewData["Title"]</h2>
+        </div>
+        <a asp-action="Create" class="btn btn-primary shadow-sm rounded-pill px-4 py-2 fw-semibold">
+            <i class="fas fa-plus-circle me-2"></i>Tạo Người Dùng Mới
+        </a>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+            <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+        <div class="card-header bg-primary bg-gradient py-3 border-bottom text-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group" role="group" aria-label="Filter by Role">
+                    <a href="@Url.Action("Index", new { role = "" })"
+                       class="btn btn-outline-light @(string.IsNullOrEmpty(ViewBag.CurrentRole) ? "active" : "")">
+                        <i class="fas fa-users me-2"></i>Tất cả
+                    </a>
+                    @foreach (var role in ViewBag.Roles)
+                    {
+                        <a href="@Url.Action("Index", new { role = role })"
+                           class="btn btn-outline-light @(ViewBag.CurrentRole == role ? "active" : "")">
+                            <i class="fas fa-@(role == "Admin" ? "user-shield" : role == "Doctor" ? "user-md" : "user") me-2"></i>@role
+                        </a>
+                    }
+                </div>
+                <div class="input-group" style="max-width: 300px;">
+                    <input type="text" class="form-control border-end-0" placeholder="Tìm kiếm..." id="searchInput" aria-label="Search users">
+                    <button class="btn btn-outline-light border" type="button" aria-label="Perform search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="bg-light">
+                        <tr>
+                            <th class="ps-4 text-secondary">Email</th>
+                            <th class="text-secondary">Vai Trò</th>
+                            <th class="text-center text-secondary">Trạng Thái</th>
+                            <th class="text-center text-secondary">Ngày Tạo</th>
+                            <th class="text-end pe-4 text-secondary">Hành Động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model)
+                        {
+                            <tr class="user-row">
+                                <td class="ps-4">
+                                    <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-info text-white d-flex align-items-center justify-content-center shadow-sm" style="width: 40px; height: 40px;">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h6 class="mb-1 text-dark fw-semibold">@user.Email</h6>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="badge bg-@(user.Role switch {
+                                            "Admin" => "danger",
+                                            "Doctor" => "primary",
+                                            "Patient" => "success",
+                                            _ => "secondary"
+                                        }) py-2 px-3 rounded-pill shadow-sm">
+                                        <i class="fas fa-@(user.Role == "Admin" ? "user-shield" : user.Role == "Doctor" ? "user-md" : "user") me-1"></i>
+                                        @user.Role
+                                    </span>
+                                </td>
+                                <td class="text-center">
+                                    <span class="badge bg-@(user.IsActive ? "success" : "danger") py-2 px-3 rounded-pill">
+                                        <i class="fas fa-@(user.IsActive ? "check-circle" : "times-circle") me-1"></i>
+                                        @(user.IsActive ? "Hoạt động" : "Không hoạt động")
+                                    </span>
+                                </td>
+                                <td class="text-center">
+                                    <div class="text-muted small">
+                                        <i class="far fa-calendar-alt me-1"></i>
+                                        @user.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy")
+                                    </div>
+                                </td>
+                                <td class="text-end pe-4">
+                                    <div class="btn-group" role="group" aria-label="User Actions">
+                                        <a asp-action="Details" asp-route-id="@user.Id" class="btn btn-sm btn-outline-info rounded-start" title="Chi tiết">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-outline-primary" title="Sửa">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-sm btn-outline-danger rounded-end" title="Xóa">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                        @if (!Model.Any())
+                        {
+                            <tr>
+                                <td colspan="5" class="text-center py-4 text-muted">
+                                    Không tìm thấy người dùng nào.
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $("#searchInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("table tbody tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+            $('.btn-outline-danger').click(function(e) {
+                if (!confirm('Bạn có chắc chắn muốn xóa người dùng này? Hành động này không thể hoàn tác.')) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+} 

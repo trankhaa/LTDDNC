@@ -1,0 +1,40 @@
+@model backend.Models.Entities.Branch
+
+@{
+    ViewData["Title"] = "Branch Details";
+}
+
+<h1>@Model.BranchName</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <dt class="col-sm-2">Image</dt>
+            <dd class="col-sm-10">
+                <img src="@Model.ImageUrl" alt="@Model.BranchName" style="max-width: 300px;" />
+            </dd>
+        }
+        <dt class="col-sm-2">Address</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.BranchAddress)</dd>
+        <dt class="col-sm-2">Hotline</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.BranchHotline)</dd>
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.BranchEmail)</dd>
+        <dt class="col-sm-2">Description</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Description)</dd>
+        @if (Model.Coordinates != null)
+        {
+            <dt class="col-sm-2">Coordinates</dt>
+            <dd class="col-sm-10">
+                Latitude: @Model.Coordinates.Latitude, Longitude: @Model.Coordinates.Longitude
+            </dd>
+        }
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdBranch" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

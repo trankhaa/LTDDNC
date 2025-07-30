@@ -1,0 +1,49 @@
+﻿@model IEnumerable<backend.Models.Entities.Package>
+
+@{
+    ViewData["Title"] = "Quản lý Gói khám";
+    Layout = "_Layout"; // Giả sử bạn có file Layout chung cho Admin
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Tạo gói khám mới</a>
+</p>
+<table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Hình ảnh</th>
+            <th>Tên gói khám</th>
+            <th>Giá</th>
+            <th>Trạng thái</th>
+            <th style="width: 150px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.ImageUrl" alt="@item.Name" style="width: 100px; height: auto; object-fit: cover;" />
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@item.Price.ToString("N0") đ</td>
+                <td>
+                    @if (item.IsActive)
+                    {
+                        <span class="badge bg-success">Đang hoạt động</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Không hoạt động</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

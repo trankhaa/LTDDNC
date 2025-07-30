@@ -1,0 +1,52 @@
+# pubspec.yaml
+
+name: app_demo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Sửa lại để tương thích rộng hơn
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # === THÊM DÒNG NÀY VÀO ===
+  easy_localization: ^3.0.7 # Thư viện đa ngôn ngữ
+
+  # --- CÁC THƯ VIỆN HIỆN CÓ CỦA BẠN (GIỮ NGUYÊN) ---
+  font_awesome_flutter: ^10.7.0
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.4
+  cupertino_icons: ^1.0.8
+  permission_handler: ^11.0.1
+  google_sign_in: ^6.2.1
+  shared_preferences: ^2.2.2
+  http: ^1.4.0
+  intl: ^0.19.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Hoặc ^4.0.0 hoặc ^5.0.0 tùy bạn
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    # === THÊM DÒNG NÀY VÀO ===
+    - assets/translations/
+
+    # --- CÁC ASSETS HIỆN CÓ CỦA BẠN (GIỮ NGUYÊN) ---
+    - assets/google.png
+    - assets/background.png
+    - assets/logo.png
+    - assets/banner1.png
+    - assets/default_avatar.png

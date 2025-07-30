@@ -1,0 +1,103 @@
+﻿@model backend.ViewModels.PatientViewModel
+
+@{
+    ViewData["Title"] = "Patient Details";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Patient Details</h1>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">@Model.FullName</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Patient Code:</dt>
+                        <dd class="col-sm-8">@Model.PatientCode</dd>
+
+                        <dt class="col-sm-4">Gender:</dt>
+                        <dd class="col-sm-8">@Model.Gender</dd>
+
+                        <dt class="col-sm-4">Date of Birth:</dt>
+                        <dd class="col-sm-8">@Model.DateOfBirth.ToShortDateString()</dd>
+
+                        <dt class="col-sm-4">Age:</dt>
+                        <dd class="col-sm-8">@(DateTime.Now.Year - Model.DateOfBirth.Year)</dd>
+
+                        <dt class="col-sm-4">Phone:</dt>
+                        <dd class="col-sm-8">@Model.Phone</dd>
+                    </dl>
+                </div>
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Blood Type:</dt>
+                        <dd class="col-sm-8">@Model.BloodType</dd>
+
+                        <dt class="col-sm-4">Height:</dt>
+                        <dd class="col-sm-8">@Model.Height cm</dd>
+
+                        <dt class="col-sm-4">Weight:</dt>
+                        <dd class="col-sm-8">@Model.Weight kg</dd>
+
+                        <dt class="col-sm-4">Insurance Number:</dt>
+                        <dd class="col-sm-8">@Model.InsuranceNumber</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h5>Address</h5>
+                    <p>@Model.Address</p>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <h5>Medical History</h5>
+                    @if (Model.MedicalHistory != null && Model.MedicalHistory.Any())
+                    {
+                        <ul class="list-group">
+                            @foreach (var item in Model.MedicalHistory)
+                            {
+                                <li class="list-group-item">@item</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>No medical history recorded</p>
+                    }
+                </div>
+                <div class="col-md-6">
+                    <h5>Allergies</h5>
+                    @if (Model.Allergies != null && Model.Allergies.Any())
+                    {
+                        <ul class="list-group">
+                            @foreach (var item in Model.Allergies)
+                            {
+                                <li class="list-group-item">@item</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>No allergies recorded</p>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            <small>Created: @Model.CreatedAt | Last Updated: @Model.UpdatedAt</small>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,128 @@
+@model backend.Models.ViewModel.AdminStatisticsViewModel
+@{
+    ViewData["Title"] = "Thống kê tổng quan bệnh viện";
+}
+
+<h2 class="mb-4 fw-bold">Thống kê tổng quan bệnh viện</h2>
+
+<div class="row g-3 mb-4">
+    <div class="col-6 col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 text-white" style="background: #2196f3;">
+            <div class="card-body text-center">
+                <div class="fs-1 fw-bold">@Model.TotalPatients</div>
+                <div class="fw-semibold">Bệnh nhân</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 text-white" style="background: #1976d2;">
+            <div class="card-body text-center">
+                <div class="fs-1 fw-bold">@Model.TotalDoctors</div>
+                <div class="fw-semibold">Bác sĩ</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 text-white" style="background: #00bcd4;">
+            <div class="card-body text-center">
+                <div class="fs-1 fw-bold">@Model.TotalUsers</div>
+                <div class="fw-semibold">Người dùng</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 text-white" style="background: #ffc107; color: #222;">
+            <div class="card-body text-center">
+                <div class="fs-1 fw-bold">@Model.TotalDepartments</div>
+                <div class="fw-semibold">Khoa</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 text-white" style="background: #607d8b;">
+            <div class="card-body text-center">
+                <div class="fs-1 fw-bold">@Model.TotalBranches</div>
+                <div class="fw-semibold">Chi nhánh</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+        <div class="card shadow-sm border-0 text-white" style="background: #e53935;">
+            <div class="card-body text-center">
+                <div class="fs-1 fw-bold">@Model.TotalServices</div>
+                <div class="fw-semibold">Dịch vụ</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="row g-3">
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 mb-3">
+            <div class="card-header bg-white fw-semibold">Biểu đồ phân bố người dùng</div>
+            <div class="card-body">
+                <canvas id="userPieChart" style="max-height:220px;"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0 mb-3">
+            <div class="card-header bg-white fw-semibold">Biểu đồ cột tổng quan</div>
+            <div class="card-body">
+                <canvas id="overviewBarChart" style="max-height:220px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Pie chart: phân bố user
+        const userPieCtx = document.getElementById('userPieChart').getContext('2d');
+        new Chart(userPieCtx, {
+            type: 'pie',
+            data: {
+                labels: ['Bệnh nhân', 'Bác sĩ', 'Người dùng khác'],
+                datasets: [{
+                    data: [@Model.TotalPatients, @Model.TotalDoctors, @Model.TotalUsers - @Model.TotalPatients - @Model.TotalDoctors],
+                    backgroundColor: ['#2196f3', '#1976d2', '#00bcd4'],
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom' }
+                }
+            }
+        });
+
+        // Bar chart: tổng quan
+        const overviewBarCtx = document.getElementById('overviewBarChart').getContext('2d');
+        new Chart(overviewBarCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Bệnh nhân', 'Bác sĩ', 'Người dùng', 'Khoa', 'Chi nhánh', 'Dịch vụ'],
+                datasets: [{
+                    label: 'Số lượng',
+                    data: [@Model.TotalPatients, @Model.TotalDoctors, @Model.TotalUsers, @Model.TotalDepartments, @Model.TotalBranches, @Model.TotalServices],
+                    backgroundColor: [
+                        '#2196f3', '#1976d2', '#00bcd4', '#ffc107', '#607d8b', '#e53935'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+    </script>
+} 
+} 

@@ -1,0 +1,42 @@
+@model List<backend.Models.Entities.Chat.ChatMessage>
+@{
+    ViewData["Title"] = "Admin Chat History";
+   // Layout = "_Layout"; // Giả sử bạn có một file Layout chung
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Đây là toàn bộ lịch sử chat trên hệ thống.</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Thời gian</th>
+            <th>Từ User</th>
+            <th>Tới User</th>
+            <th>Nội dung tin nhắn</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var message in Model)
+            {
+                <tr>
+                    <td>@message.Timestamp.ToLocalTime().ToString("g")</td>
+                    <td>@message.From</td>
+                    <td>@message.To</td>
+                    <td>@message.Message</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center">Chưa có tin nhắn nào.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@* Bạn có thể thêm JavaScript ở đây để kết nối tới SignalR Hub cho Admin sau này *@

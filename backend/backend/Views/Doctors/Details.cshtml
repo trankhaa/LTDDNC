@@ -1,0 +1,166 @@
+@model backend.Models.ViewModel.Doctor.DoctorFullInfoViewModel
+@{
+    @* ViewData["Title"] = "Chi Tiết Bác Sĩ - " + (Model?.Name ?? "N/A"); // Thêm kiểm tra null cho Model.Name *@
+    @* Layout = "~/Views/Shared/_AdminLayout.cshtml"; // Hoặc Layout admin của bạn *@
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+@if (Model == null)
+{
+    <div class="alert alert-warning" role="alert">
+        Không có thông tin chi tiết để hiển thị cho bác sĩ này.
+    </div>
+    <p>
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+    </p>
+}
+else
+{
+    <div>
+        <h4>Thông tin Bác Sĩ</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-3 text-center mb-3">
+                @if (!string.IsNullOrEmpty(Model.AvatarUrl))
+                {
+                    <img src="@Model.AvatarUrl" alt="Ảnh đại diện của @Model.Name" class="img-fluid rounded"
+                        style="max-width: 200px; max-height: 200px; object-fit: cover; border: 1px solid #ddd;" />
+                }
+                else
+                {
+                    <div class="border p-3 text-center d-flex align-items-center justify-content-center"
+                        style="width: 200px; height: 200px; background-color: #f8f9fa;">
+                        <span>Không có ảnh</span>
+                    </div>
+                }
+            </div>
+            <div class="col-md-9">
+                <dl class="row">
+                    <dt class="col-sm-4 col-md-3">ID Bác sĩ:</dt>
+                    <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.DoctorId)</dd>
+
+                    <dt class="col-sm-4 col-md-3">Họ và Tên:</dt>
+                    <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                    <dt class="col-sm-4 col-md-3">Giới tính:</dt>
+                    <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.Gender)</dd>
+
+                    <dt class="col-sm-4 col-md-3">Ngày sinh:</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.DateOfBirth?.ToString("dd/MM/yyyy")</dd>
+
+                    <dt class="col-sm-4 col-md-3">CCCD/CMND:</dt>
+                    <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.Cccd)</dd>
+
+                    <dt class="col-sm-4 col-md-3">Số điện thoại:</dt>
+                    <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.Phone)</dd>
+
+                    <dt class="col-sm-4 col-md-3">Email:</dt>
+                    <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.Email)</dd>
+
+                    <dt class="col-sm-4 col-md-3">Ngày tạo:</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                    <dt class="col-sm-4 col-md-3">Cập nhật lần cuối:</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.UpdatedAt.ToString("dd/MM/yyyy HH:mm")</dd>
+                </dl>
+            </div>
+        </div>
+
+        <h4 class="mt-4">Chi tiết chuyên môn</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4 col-md-3">Bằng cấp:</dt>
+            <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.Degree)</dd>
+
+            <dt class="col-sm-4 col-md-3">Chi nhánh:</dt>
+            <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.BranchName)</dd>
+
+            <dt class="col-sm-4 col-md-3">Khoa:</dt>
+            <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.DepartmentName)</dd>
+
+            <dt class="col-sm-4 col-md-3">Chuyên khoa:</dt>
+            <dd class="col-sm-8 col-md-9">@Html.DisplayFor(model => model.SpecialtyName)</dd>
+
+            @if (!string.IsNullOrEmpty(Model.Description))
+            {
+                <dt class="col-sm-4 col-md-3">Mô tả:</dt>
+                <dd class="col-sm-8 col-md-9">@Html.Raw(Model.Description?.Replace(Environment.NewLine, "<br />"))</dd>
+            }
+        </dl>
+
+        @if (!string.IsNullOrEmpty(Model.CertificateImgUrl) || !string.IsNullOrEmpty(Model.DegreeImgUrl))
+        {
+            <h4 class="mt-4">Giấy tờ & Hình ảnh</h4>
+            <hr />
+            <div class="row">
+                @if (!string.IsNullOrEmpty(Model.CertificateImgUrl))
+                {
+                    <div class="col-md-4 mb-3">
+                        <h5>Ảnh Chứng Chỉ</h5>
+                        <a href="@Model.CertificateImgUrl" target="_blank" title="Xem ảnh đầy đủ">
+                            <img src="@Model.CertificateImgUrl" alt="Ảnh chứng chỉ" class="img-fluid img-thumbnail"
+                                style="max-height: 200px; object-fit: contain;" />
+                        </a>
+                    </div>
+                }
+                @if (!string.IsNullOrEmpty(Model.DegreeImgUrl))
+                {
+                    <div class="col-md-4 mb-3">
+                        <h5>Ảnh Bằng Cấp</h5>
+                        <a href="@Model.DegreeImgUrl" target="_blank" title="Xem ảnh đầy đủ">
+                            <img src="@Model.DegreeImgUrl" alt="Ảnh bằng cấp" class="img-fluid img-thumbnail"
+                                style="max-height: 200px; object-fit: contain;" />
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+
+
+        @if (Model.ConsultationFee.HasValue || !string.IsNullOrEmpty(Model.StartTime) ||
+            !string.IsNullOrEmpty(Model.EndTime) || Model.ExaminationTime.HasValue)
+        {
+            <h4 class="mt-4">Thông tin lịch khám (Lịch đầu tiên)</h4>
+            <hr />
+            <dl class="row">
+                @if (Model.ConsultationFee.HasValue)
+                {
+                    <dt class="col-sm-4 col-md-3">Phí tư vấn:</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.ConsultationFee?.ToString("N0") VNĐ</dd>
+                }
+
+                @if (!string.IsNullOrEmpty(Model.StartTime) && !string.IsNullOrEmpty(Model.EndTime))
+                {
+                    <dt class="col-sm-4 col-md-3">Giờ làm việc:</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.StartTime - @Model.EndTime</dd>
+                }
+                else if (!string.IsNullOrEmpty(Model.StartTime))
+                {
+                    <dt class="col-sm-4 col-md-3">Giờ bắt đầu:</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.StartTime</dd>
+                }
+                else if (!string.IsNullOrEmpty(Model.EndTime))
+                {
+                    <dt class="col-sm-4 col-md-3">Giờ kết thúc:</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.EndTime</dd>
+                }
+
+
+                @if (Model.ExaminationTime.HasValue)
+                {
+                    <dt class="col-sm-4 col-md-3">Thời gian khám (phút):</dt>
+                    <dd class="col-sm-8 col-md-9">@Model.ExaminationTime phút</dd>
+                }
+            </dl>
+        }
+    </div>
+
+    <div class="mt-4">
+        @* Tạm thời chưa có action Edit, khi có sẽ uncomment
+        <a asp-action="Edit" asp-route-id="@Model.DoctorId" class="btn btn-primary">Chỉnh sửa</a> |
+        *@
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+    </div>
+}

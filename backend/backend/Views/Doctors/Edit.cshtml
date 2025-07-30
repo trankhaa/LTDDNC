@@ -1,0 +1,538 @@
+@model backend.Models.DTOs.Doctor.UpdateFullDoctorDto
+@{
+    ViewData["Title"] = "Chỉnh Sửa Thông Tin Bác Sĩ: " + Model.Name;
+}
+
+<!-- Thêm link Font Awesome (nếu chưa có) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        border-radius: .75rem;
+        border: none;
+    }
+
+    .card-header {
+        background-color: #e9ecef;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, .25);
+    }
+
+    .image-preview-container {
+        border: 1px dashed #ced4da;
+        padding: 10px;
+        border-radius: .375rem;
+        text-align: center;
+        min-height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .image-preview {
+        max-width: 100%;
+        max-height: 120px;
+        margin-top: 5px;
+        object-fit: cover;
+        border-radius: .25rem;
+    }
+
+    .image-preview-text {
+        color: #6c757d;
+        font-size: 0.9em;
+    }
+
+    .custom-file-input-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .custom-file-input-wrapper input[type=file] {
+        position: absolute;
+        font-size: 100px;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .btn-file-upload {
+        display: inline-block;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #0d6efd;
+        background-color: #e9ecef;
+        border: 1px solid #ced4da;
+        border-radius: .375rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .btn-file-upload:hover {
+        color: #fff;
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+
+    .file-name-display {
+        display: block;
+        font-size: 0.8em;
+        color: #6c757d;
+        margin-top: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .current-image-text {
+        font-size: 0.8em;
+        color: #28a745;
+        /* Green color for current image notification */
+        margin-top: 3px;
+        display: block;
+    }
+</style>
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+            <h1 class="mb-4 text-primary"><i class="fas fa-edit me-2"></i>@ViewData["Title"]</h1>
+            <hr class="mb-4" />
+
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-3"></div>
+                @* ID được truyền qua route, không cần input hidden ở đây *@
+
+                <!-- Thông tin cơ bản -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="m-0 font-weight-bold text-primary">
+                            <i class="fas fa-user-circle me-2"></i>Thông tin cơ bản
+                        </h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Name" class="form-label fw-semibold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    <input asp-for="Name" class="form-control" />
+                                </div>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Gender" class="form-label fw-semibold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
+                                    <select asp-for="Gender" class="form-select">
+                                        <option value="">-- Chọn giới tính --</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <span asp-validation-for="Gender" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="DateOfBirth" class="form-label fw-semibold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                                    <input asp-for="DateOfBirth" type="date" class="form-control"
+                                        value="@Model.DateOfBirth.ToString("yyyy-MM-dd")" />
+                                </div>
+                                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Cccd" class="form-label fw-semibold">CCCD/CMND</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-id-card"></i></span>
+                                    <input asp-for="Cccd" class="form-control" />
+                                </div>
+                                <span asp-validation-for="Cccd" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Phone" class="form-label fw-semibold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    <input asp-for="Phone" class="form-control" />
+                                </div>
+                                <span asp-validation-for="Phone" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Email" class="form-label fw-semibold"></label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input asp-for="Email" type="email" class="form-control" />
+                                </div>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thay đổi mật khẩu -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="m-0 font-weight-bold text-primary">
+                            <i class="fas fa-key me-2"></i>Thay đổi mật khẩu
+                        </h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <small class="form-text text-muted mb-2 d-block">Để trống nếu không muốn thay đổi mật
+                            khẩu.</small>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="NewPassword" class="form-label fw-semibold">Mật khẩu mới</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    <input asp-for="NewPassword" type="password" class="form-control"
+                                        placeholder="Nhập mật khẩu mới" />
+                                </div>
+                                <span asp-validation-for="NewPassword" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="ConfirmNewPassword" class="form-label fw-semibold">Xác nhận mật khẩu
+                                    mới</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    <input asp-for="ConfirmNewPassword" type="password" class="form-control"
+                                        placeholder="Xác nhận mật khẩu mới" />
+                                </div>
+                                <span asp-validation-for="ConfirmNewPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thông tin chuyên môn & Chi tiết -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="m-0 font-weight-bold text-primary">
+                            <i class="fas fa-briefcase-medical me-2"></i>Thông tin chuyên môn & Chi tiết
+                        </h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="BranchId" class="form-label fw-semibold">Chi nhánh</label>
+                                <select asp-for="BranchId" class="form-select"
+                                    asp-items="@(new SelectList(ViewBag.Branches, "Value", "Text"))">
+                                    <option value="">-- Chọn chi nhánh --</option>
+                                </select>
+                                <span asp-validation-for="BranchId" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="DepartmentId" class="form-label fw-semibold">Khoa</label>
+                                <select asp-for="DepartmentId" id="DepartmentId" class="form-select"
+                                    asp-items="@(new SelectList(ViewBag.Departments, "Value", "Text"))">
+                                    <option value="">-- Chọn khoa --</option>
+                                </select>
+                                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="SpecialtyId" class="form-label fw-semibold">Chuyên khoa</label>
+                                <select asp-for="SpecialtyId" id="SpecialtyId" class="form-select">
+                                    <option value="">-- Chọn chuyên khoa (chọn Khoa trước) --</option>
+                                    @* Chuyên khoa sẽ được tải bằng JavaScript *@
+                                </select>
+                                <span asp-validation-for="SpecialtyId" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Degree" class="form-label fw-semibold">Bằng cấp/Học vị</label>
+                            <input asp-for="Degree" class="form-control" placeholder="Ví dụ: Thạc sĩ, Tiến sĩ..." />
+                            <span asp-validation-for="Degree" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label fw-semibold">Mô tả kinh nghiệm, giới
+                                thiệu</label>
+                            <textarea asp-for="Description" class="form-control" rows="4"
+                                placeholder="Giới thiệu về bác sĩ..."></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hình ảnh & Giấy tờ -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="m-0 font-weight-bold text-primary">
+                            <i class="fas fa-images me-2"></i>Hình ảnh & Giấy tờ
+                        </h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <!-- Ảnh đại diện -->
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="ImgFile" class="form-label fw-semibold d-block">Ảnh đại diện mới (nếu
+                                    đổi)</label>
+                                <div class="custom-file-input-wrapper">
+                                    <button type="button" class="btn-file-upload"><i class="fas fa-upload me-1"></i>
+                                        Chọn ảnh mới</button>
+                                    <input asp-for="ImgFile" type="file" class="form-control-file" accept="image/*"
+                                        id="ImgFileInput" data-preview="imgPreview" data-text-display="imgFileText"
+                                        data-initial-src="@Url.Content(Model.ExistingAvatarUrl ?? "#")" />
+                                </div>
+                                <span class="file-name-display" id="imgFileText">Chưa chọn tệp mới</span>
+                                <span asp-validation-for="ImgFile" class="text-danger d-block"></span>
+                                <div class="image-preview-container mt-2">
+                                    <img id="imgPreview" src="@Url.Content(Model.ExistingAvatarUrl ?? "#")"
+                                        alt="Ảnh đại diện" class="image-preview"
+                                        style="@(string.IsNullOrEmpty(Model.ExistingAvatarUrl) ? "display:none;" : "")" />
+                                    <span class="image-preview-text"
+                                        style="@(string.IsNullOrEmpty(Model.ExistingAvatarUrl) ? "" : "display:none;")">Xem
+                                        trước ảnh</span>
+                                </div>
+                                <input type="hidden" asp-for="ExistingAvatarUrl" />
+                            </div>
+
+                            <!-- Ảnh chứng chỉ -->
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="CertificateImgFile" class="form-label fw-semibold d-block">Ảnh chứng chỉ
+                                    mới (nếu đổi)</label>
+                                <div class="custom-file-input-wrapper">
+                                    <button type="button" class="btn-file-upload"><i class="fas fa-upload me-1"></i>
+                                        Chọn ảnh mới</button>
+                                    <input asp-for="CertificateImgFile" type="file" class="form-control-file"
+                                        accept="image/*" id="CertificateImgFileInput" data-preview="certificatePreview"
+                                        data-text-display="certificateFileText"
+                                        data-initial-src="@Url.Content(Model.ExistingCertificateImgUrl ?? "#")" />
+                                </div>
+                                <span class="file-name-display" id="certificateFileText">Chưa chọn tệp mới</span>
+                                <span asp-validation-for="CertificateImgFile" class="text-danger d-block"></span>
+                                <div class="image-preview-container mt-2">
+                                    <img id="certificatePreview"
+                                        src="@Url.Content(Model.ExistingCertificateImgUrl ?? "#")" alt="Ảnh chứng chỉ"
+                                        class="image-preview"
+                                        style="@(string.IsNullOrEmpty(Model.ExistingCertificateImgUrl) ? "display:none;" : "")" />
+                                    <span class="image-preview-text"
+                                        style="@(string.IsNullOrEmpty(Model.ExistingCertificateImgUrl) ? "" : "display:none;")">Xem
+                                        trước ảnh chứng chỉ</span>
+                                </div>
+                                <input type="hidden" asp-for="ExistingCertificateImgUrl" />
+                            </div>
+
+                            <!-- Ảnh bằng cấp -->
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="DegreeImgFile" class="form-label fw-semibold d-block">Ảnh bằng cấp mới
+                                    (nếu đổi)</label>
+                                <div class="custom-file-input-wrapper">
+                                    <button type="button" class="btn-file-upload"><i class="fas fa-upload me-1"></i>
+                                        Chọn ảnh mới</button>
+                                    <input asp-for="DegreeImgFile" type="file" class="form-control-file"
+                                        accept="image/*" id="DegreeImgFileInput" data-preview="degreePreview"
+                                        data-text-display="degreeFileText"
+                                        data-initial-src="@Url.Content(Model.ExistingDegreeImgUrl ?? "#")" />
+                                </div>
+                                <span class="file-name-display" id="degreeFileText">Chưa chọn tệp mới</span>
+                                <span asp-validation-for="DegreeImgFile" class="text-danger d-block"></span>
+                                <div class="image-preview-container mt-2">
+                                    <img id="degreePreview" src="@Url.Content(Model.ExistingDegreeImgUrl ?? "#")"
+                                        alt="Ảnh bằng cấp" class="image-preview"
+                                        style="@(string.IsNullOrEmpty(Model.ExistingDegreeImgUrl) ? "display:none;" : "")" />
+                                    <span class="image-preview-text"
+                                        style="@(string.IsNullOrEmpty(Model.ExistingDegreeImgUrl) ? "" : "display:none;")">Xem
+                                        trước ảnh bằng cấp</span>
+                                </div>
+                                <input type="hidden" asp-for="ExistingDegreeImgUrl" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thông tin lịch khám (nếu có) -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="m-0 font-weight-bold text-primary">
+                            <i class="fas fa-calendar-check me-2"></i>Thông tin lịch khám
+                        </h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="ConsultationFee" class="form-label fw-semibold">Phí tư vấn/khám
+                                    (VNĐ)</label>
+                                <input asp-for="ConsultationFee" type="number" step="1000" min="0"
+                                    class="form-control" />
+                                <span asp-validation-for="ConsultationFee" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="ExaminationTime" class="form-label fw-semibold">Thời gian khám mỗi ca
+                                    (phút)</label>
+                                <input asp-for="ExaminationTime" type="number" min="5" class="form-control" />
+                                <span asp-validation-for="ExaminationTime" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="StartTime" class="form-label fw-semibold">Giờ bắt đầu làm việc</label>
+                                <input asp-for="StartTime" type="time" class="form-control" />
+                                <span asp-validation-for="StartTime" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="EndTime" class="form-label fw-semibold">Giờ kết thúc làm việc</label>
+                                <input asp-for="EndTime" type="time" class="form-control" />
+                                <span asp-validation-for="EndTime" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group mt-4 mb-5 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg px-5">
+                        <i class="fas fa-save me-2"></i>Lưu Thay Đổi
+                    </button>
+                    <a asp-action="Details" asp-route-id="@ViewContext.RouteData.Values["id"]"
+                        class="btn btn-info btn-lg px-4 ms-2">
+                        <i class="fas fa-eye me-2"></i>Xem Chi Tiết
+                    </a>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg px-4 ms-2">
+                        <i class="fas fa-arrow-left me-2"></i>Quay lại
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Hàm tải chuyên khoa dựa trên khoa đã chọn
+        function loadSpecialtiesForDepartment(departmentId, specialtyToSelect) {
+            var specialtySelect = $('#SpecialtyId');
+            var defaultOptionText = '-- Chọn chuyên khoa (chọn Khoa trước) --';
+
+            specialtySelect.empty();
+            if (!departmentId) {
+                defaultOptionText = '-- Vui lòng chọn Khoa --';
+            }
+            specialtySelect.append($('<option>', { value: '', text: defaultOptionText }));
+
+            if (departmentId) {
+                // Đảm bảo URL này khớp với route trong DoctorsController
+                // Action: GetSpecialtiesByDepartment, Controller: Doctors, Area: Admin (nếu có)
+                var fetchUrl = '@Url.Action("GetSpecialtiesByDepartment", "Doctors", new { Area = "Admin" })';
+                // Nếu controller không có Area "Admin", bỏ new { Area = "Admin" }
+                // Ví dụ: var fetchUrl = '@Url.Action("GetSpecialtiesByDepartment", "Doctors")';
+
+                $.getJSON(fetchUrl, { departmentId: departmentId })
+                    .done(function (data) {
+                        if (data && !data.error && data.length > 0) {
+                            specialtySelect.find('option:first-child').text('-- Chọn chuyên khoa --');
+                            $.each(data, function (index, item) {
+                                specialtySelect.append($('<option>', {
+                                    value: item.value,
+                                    text: item.text
+                                }));
+                            });
+                            if (specialtyToSelect) {
+                                specialtySelect.val(specialtyToSelect);
+                                // Nếu sau khi set val mà giá trị vẫn là "" (nghĩa là specialtyToSelect không có trong list mới)
+                                // thì có thể hiển thị một thông báo hoặc để mặc định là "-- Chọn chuyên khoa --"
+                                if (specialtySelect.val() === "" && specialtyToSelect !== "") {
+                                    console.warn("Chuyên khoa ID '" + specialtyToSelect + "' không tìm thấy trong danh sách mới cho khoa đã chọn.");
+                                    // specialtySelect.find('option:first-child').text('Chuyên khoa cũ không thuộc khoa mới');
+                                }
+                            }
+                        } else if (data && data.error) {
+                            console.error("Lỗi từ server khi tải chuyên khoa: " + data.error);
+                            specialtySelect.find('option:first-child').text('Lỗi tải chuyên khoa');
+                        } else {
+                            specialtySelect.find('option:first-child').text('Không có chuyên khoa');
+                        }
+                    })
+                    .fail(function (jqXHR, textStatus, errorThrown) {
+                        console.error("AJAX request lấy chuyên khoa thất bại: " + textStatus + ", " + errorThrown);
+                        specialtySelect.find('option:first-child').text('Lỗi kết nối');
+                    });
+            }
+        }
+
+        // Xem trước ảnh và hiển thị tên file
+        function handleImagePreview(inputElement) {
+            const previewElementId = $(inputElement).data('preview');
+            const textDisplayId = $(inputElement).data('text-display');
+            const initialSrc = $(inputElement).data('initial-src') || '#';
+
+            var previewElement = $('#' + previewElementId);
+            var previewTextElement = previewElement.siblings('.image-preview-text');
+            var fileNameDisplayElement = $('#' + textDisplayId);
+
+            if (inputElement.files && inputElement.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    previewElement.attr('src', e.target.result).show();
+                    if (previewTextElement) previewTextElement.hide();
+                }
+                reader.readAsDataURL(inputElement.files[0]);
+                fileNameDisplayElement.text(inputElement.files[0].name);
+            } else {
+                // Nếu không có file mới được chọn, hiển thị lại ảnh ban đầu (nếu có) hoặc placeholder
+                if (initialSrc && initialSrc !== '#') {
+                    previewElement.attr('src', initialSrc).show();
+                    if (previewTextElement) previewTextElement.hide();
+                } else {
+                    previewElement.attr('src', '#').hide();
+                    if (previewTextElement) previewTextElement.show();
+                }
+                fileNameDisplayElement.text('Chưa chọn tệp mới');
+            }
+        }
+
+        $(document).ready(function () {
+            // Tải chuyên khoa ban đầu nếu Khoa đã được chọn
+            var initialDepartmentId = $('#DepartmentId').val();
+            // Lấy SpecialtyId từ model để chọn sau khi tải.
+            // Quan trọng: Đảm bảo Model.SpecialtyId được truyền đúng vào view và không bị lỗi JS nếu nó là null/undefined.
+            // Sử dụng @Json.Serialize để đảm bảo giá trị chuỗi/số được xử lý đúng trong JS.
+            var initialSpecialtyId = @Json.Serialize(Model.SpecialtyId);
+
+            if (initialDepartmentId) {
+                loadSpecialtiesForDepartment(initialDepartmentId, initialSpecialtyId);
+            }
+
+            // Cập nhật chuyên khoa khi Khoa thay đổi
+            $('#DepartmentId').change(function () {
+                loadSpecialtiesForDepartment($(this).val(), null); // Khi thay đổi khoa, không cần chọn lại specialty cũ
+            });
+
+            // Gán sự kiện cho các input file
+            $('.custom-file-input-wrapper input[type=file]').on('change', function () {
+                handleImagePreview(this);
+            });
+
+            // Trigger click cho input file (không bắt buộc nếu input trong label bao button)
+            // $('.btn-file-upload').click(function(e){
+            //     $(this).closest('.custom-file-input-wrapper').find('input[type=file]').click();
+            // });
+        });
+    </script>
+}

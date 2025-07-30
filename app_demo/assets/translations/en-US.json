@@ -1,0 +1,10 @@
+{
+    "health_news_title": "Health News Today",
+    "health_news_description": "Latest updates from the world of medicine and health",
+    "loading": "Loading articles...",
+    "api_error": "API Error",
+    "connection_error": "Connection error, please check your network",
+    "no_articles": "No articles found at the moment.",
+    "unknown_source": "Unknown Source",
+    "read_more": "Read More"
+}

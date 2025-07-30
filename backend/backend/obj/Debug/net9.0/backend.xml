@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>backend</name>
+    </assembly>
+    <members>
+        <member name="M:backend.Controllers.API.PackageController.GetActivePackages">
+            <summary>
+            API để lấy danh sách tất cả các gói khám đang hoạt động.
+            Dành cho ứng dụng di động Flutter sử dụng.
+            </summary>
+            <returns>Một danh sách các gói khám.</returns>
+        </member>
+        <member name="T:backend.Models.Entities.GeoPoint">
+            <summary>
+            Lớp để lưu trữ tọa độ địa lý.
+            Cần thiết cho thuộc tính 'Coordinates'.
+            </summary>
+        </member>
+        <member name="M:backend.Services.UploadFile.IUploadFileService.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>
+            Lưu một file vào thư mục con trong wwwroot/uploads và trả về đường dẫn.
+            </summary>
+            <param name="file">Đối tượng IFormFile từ request.</param>
+            <param name="subfolder">Thư mục con để lưu file (ví dụ: "avatars").</param>
+            <returns>Đường dẫn tương đối của file đã lưu (ví dụ: /uploads/avatars/ten-file.jpg).</returns>
+        </member>
+        <member name="M:backend.Services.UploadFile.IUploadFileService.DeleteFile(System.String)">
+            <summary>
+            Xóa một file dựa trên đường dẫn tương đối của nó.
+            </summary>
+            <param name="relativePath">Đường dẫn tương đối của file trong wwwroot.</param>
+        </member>
+    </members>
+</doc>

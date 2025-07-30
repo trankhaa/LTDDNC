@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Truy cập bị từ chối";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div class="error-template">
+                <h1 class="display-1 text-danger">403</h1>
+                <h2 class="mb-4">Truy cập bị từ chối</h2>
+                <div class="error-details mb-4">
+                    Xin lỗi, bạn không có quyền truy cập vào trang quản trị.
+                </div>
+                <div class="error-actions">
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">
+                        <i class="fas fa-home"></i> Về trang chủ
+                    </a>
+                    <a href="@Url.Action("Login", "Admin")" class="btn btn-secondary btn-lg">
+                        <i class="fas fa-sign-in-alt"></i> Đăng nhập với tài khoản khác
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

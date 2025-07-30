@@ -1,0 +1,58 @@
+@model backend.Models.ViewModel.Doctor.DoctorSummaryViewModel
+@{
+    ViewData["Title"] = "Xác Nhận Xóa Bác Sĩ";
+    @* Layout = "~/Views/Shared/_AdminLayout.cshtml"; // Hoặc Layout admin của bạn *@
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+@if (Model == null)
+{
+    <div class="alert alert-danger">Không tìm thấy thông tin bác sĩ.</div>
+    <p>
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+    </p>
+}
+else
+{
+    <h3>Bạn có chắc chắn muốn xóa bác sĩ này không?</h3>
+    <div class="alert alert-danger">
+        <strong>Cảnh báo:</strong> Hành động này không thể hoàn tác. Tất cả thông tin liên quan đến bác sĩ
+        <strong>@Model.Name</strong> (bao gồm chi tiết, lịch khám và hình ảnh) sẽ bị xóa vĩnh viễn.
+    </div>
+
+    <div>
+        <h4>Thông tin bác sĩ</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">
+                ID Bác sĩ:
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.DoctorId)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Name):
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Email):
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            @* Thêm các trường khác nếu bạn muốn hiển thị *@
+        </dl>
+
+        <form asp-action="Delete" asp-route-id="@Model.DoctorId" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="DoctorId" /> @* Bắt buộc phải có để model binding id khi POST *@
+            <button type="submit" class="btn btn-danger">Xóa Vĩnh Viễn</button> |
+            <a asp-action="Index" class="btn btn-secondary">Hủy bỏ</a> |
+            <a asp-action="Details" asp-route-id="@Model.DoctorId" class="btn btn-info">Xem Chi Tiết</a>
+        </form>
+    </div>
+}

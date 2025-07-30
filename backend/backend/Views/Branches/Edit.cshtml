@@ -1,0 +1,67 @@
+@model backend.Models.ViewModel.BranchViewModel
+
+@{
+    ViewData["Title"] = "Edit Branch";
+}
+
+<h1>Edit Branch</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BranchName" class="control-label"></label>
+                <input asp-for="BranchName" class="form-control" />
+                <span asp-validation-for="BranchName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BranchAddress" class="control-label"></label>
+                <input asp-for="BranchAddress" class="form-control" />
+                <span asp-validation-for="BranchAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BranchHotline" class="control-label"></label>
+                <input asp-for="BranchHotline" class="form-control" />
+                <span asp-validation-for="BranchHotline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BranchEmail" class="control-label"></label>
+                <input asp-for="BranchEmail" class="form-control" />
+                <span asp-validation-for="BranchEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Latitude" class="control-label"></label>
+                <input asp-for="Latitude" class="form-control" />
+                <span asp-validation-for="Latitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Longitude" class="control-label"></label>
+                <input asp-for="Longitude" class="form-control" />
+                <span asp-validation-for="Longitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            @if (!string.IsNullOrEmpty(ViewBag.ImageUrl))
+            {
+                <div class="form-group">
+                    <label>Current Image</label>
+                    <img src="@ViewBag.ImageUrl" alt="Current branch image" style="max-width: 200px; display: block;" />
+                </div>
+            }
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+@model backend.Models.Entities.Booking.ConfirmAppointment
+
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+
+<div class="container mt-4">
+    <h2>Appointment Details</h2>
+    <hr />
+    
+    <div class="card">
+        <div class="card-header">
+            <h4>Appointment Information</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Doctor Name:</dt>
+                <dd class="col-sm-9">@Model.NameDr</dd>
+                
+                <dt class="col-sm-3">Doctor ID:</dt>
+                <dd class="col-sm-9">@Model.DoctorId</dd>
+                
+                <dt class="col-sm-3">Patient ID:</dt>
+                <dd class="col-sm-9">@Model.PatientId</dd>
+                
+                <dt class="col-sm-3">Patient Email:</dt>
+                <dd class="col-sm-9">@Model.PatientEmail</dd>
+                
+                <dt class="col-sm-3">Appointment Date:</dt>
+                <dd class="col-sm-9">@Model.Date.ToString("yyyy-MM-dd")</dd>
+                
+                <dt class="col-sm-3">Time Slot:</dt>
+                <dd class="col-sm-9">@Model.Slot</dd>
+                
+                <dt class="col-sm-3">Symptoms:</dt>
+                <dd class="col-sm-9">@Model.Symptoms</dd>
+                
+                <dt class="col-sm-3">Created At:</dt>
+                <dd class="col-sm-9">@Model.CreatedAt.ToString("yyyy-MM-dd HH:mm")</dd>
+                
+                <dt class="col-sm-3">Last Updated:</dt>
+                <dd class="col-sm-9">@Model.UpdatedAt.ToString("yyyy-MM-dd HH:mm")</dd>
+            </dl>
+        </div>
+        <div class="card-footer">
+            <a asp-action="Edit" asp-route-id="@Model.IdConfirmAppointment" class="btn btn-warning">
+                <i class="fas fa-edit"></i> Edit
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+</div>

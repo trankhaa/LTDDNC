@@ -1,0 +1,45 @@
+﻿@model backend.ViewModels.PatientUpdateViewModel
+
+@{
+    ViewData["Title"] = "Edit Patient";
+}
+
+<div class="container mt-4">
+    <h1>Edit Patient</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="FullName" class="control-label"></label>
+                        <input asp-for="FullName" class="form-control" />
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="PatientCode" class="control-label"></label>
+                        <input asp-for="PatientCode" class="form-control" />
+                        <span asp-validation-for="PatientCode" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Similar to Create.cshtml but for update -->
+                <!-- Include all other fields like in Create view -->
+
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

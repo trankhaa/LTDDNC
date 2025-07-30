@@ -1,0 +1,421 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/img/people.png",
+      "PackagePath": "staticwebassets/img/people.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/3865eaba-49a4-4129-ad6d-c80cb130e2ec.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/3865eaba-49a4-4129-ad6d-c80cb130e2ec.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/5cb4a026-2158-4587-8973-95b413973637.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/5cb4a026-2158-4587-8973-95b413973637.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/63e12afd-dd61-452e-a8bd-6e60576857e8.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/63e12afd-dd61-452e-a8bd-6e60576857e8.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/750f4683-861c-438e-b6d2-ba09172aaa28.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/750f4683-861c-438e-b6d2-ba09172aaa28.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/a79d9372-8f61-407f-a243-5bdb38074100.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/a79d9372-8f61-407f-a243-5bdb38074100.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/c9c01d3c-18ac-4cc2-a48f-20170e70fe3f.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/c9c01d3c-18ac-4cc2-a48f-20170e70fe3f.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/ce2909fd-8f93-42b7-8f07-9aa8417dbf10.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/ce2909fd-8f93-42b7-8f07-9aa8417dbf10.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/d3b83c14-94f8-41d6-b0d2-06e731f1886b.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/d3b83c14-94f8-41d6-b0d2-06e731f1886b.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/e80850ad-9b80-45a2-a1ec-af6f5d0f62fd.webp",
+      "PackagePath": "staticwebassets/uploads/avatars/e80850ad-9b80-45a2-a1ec-af6f5d0f62fd.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/f303a14a-9f5d-4023-bd61-0c02bbc77c44.png",
+      "PackagePath": "staticwebassets/uploads/avatars/f303a14a-9f5d-4023-bd61-0c02bbc77c44.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/avatars/f97dfcce-9da1-49df-98cd-b73834554a50.png",
+      "PackagePath": "staticwebassets/uploads/avatars/f97dfcce-9da1-49df-98cd-b73834554a50.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/branch-images/56fc1f9d-4c2e-4fe0-8965-f84db7db1a9e.webp",
+      "PackagePath": "staticwebassets/uploads/branch-images/56fc1f9d-4c2e-4fe0-8965-f84db7db1a9e.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/branch-images/b8fb3a81-fa23-4c6f-a5af-e2f4a118098f.jpeg",
+      "PackagePath": "staticwebassets/uploads/branch-images/b8fb3a81-fa23-4c6f-a5af-e2f4a118098f.jpeg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/branch-images/c8e96a37-c62b-4f2a-83fa-b23071f6a5ee.webp",
+      "PackagePath": "staticwebassets/uploads/branch-images/c8e96a37-c62b-4f2a-83fa-b23071f6a5ee.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/branch-images/fe0c5de1-74d1-46bc-905f-ffee08ef6ec1.webp",
+      "PackagePath": "staticwebassets/uploads/branch-images/fe0c5de1-74d1-46bc-905f-ffee08ef6ec1.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/0c56b745-7228-4db3-9a55-b836975a3d65.webp",
+      "PackagePath": "staticwebassets/uploads/department-images/0c56b745-7228-4db3-9a55-b836975a3d65.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/1e5e5d29-2f68-4205-b25d-ed20d32e18f3.webp",
+      "PackagePath": "staticwebassets/uploads/department-images/1e5e5d29-2f68-4205-b25d-ed20d32e18f3.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/1efc4337-13da-41d5-816f-3a6d9a6d7b2a.webp",
+      "PackagePath": "staticwebassets/uploads/department-images/1efc4337-13da-41d5-816f-3a6d9a6d7b2a.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/4270ec67-f9a0-4241-a665-34417754ee89.webp",
+      "PackagePath": "staticwebassets/uploads/department-images/4270ec67-f9a0-4241-a665-34417754ee89.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/481fa331-14ed-4e27-9277-8e0d00da2d3c.png",
+      "PackagePath": "staticwebassets/uploads/department-images/481fa331-14ed-4e27-9277-8e0d00da2d3c.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/61d17023-03f6-4b4b-882d-45ed3ee39e2f.png",
+      "PackagePath": "staticwebassets/uploads/department-images/61d17023-03f6-4b4b-882d-45ed3ee39e2f.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/815ad42b-3dda-4d8d-814e-0426fe3d1526.webp",
+      "PackagePath": "staticwebassets/uploads/department-images/815ad42b-3dda-4d8d-814e-0426fe3d1526.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/department-images/cfd66281-0a6e-4668-b8a6-7e0740942a4d.webp",
+      "PackagePath": "staticwebassets/uploads/department-images/cfd66281-0a6e-4668-b8a6-7e0740942a4d.webp"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/doctors/avatars/28d420a1-9fb1-4d55-88c9-9bc9e692a1bb.png",
+      "PackagePath": "staticwebassets/uploads/doctors/avatars/28d420a1-9fb1-4d55-88c9-9bc9e692a1bb.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/doctors/avatars/b7d1ea83-1016-43d7-ad62-b936e316c17a.jpeg",
+      "PackagePath": "staticwebassets/uploads/doctors/avatars/b7d1ea83-1016-43d7-ad62-b936e316c17a.jpeg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/doctors/certificates/0c0ba79f-632d-49c5-a918-be9b0e81c24d.jpeg",
+      "PackagePath": "staticwebassets/uploads/doctors/certificates/0c0ba79f-632d-49c5-a918-be9b0e81c24d.jpeg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/doctors/certificates/954be381-9fc1-40dd-b73a-b80b1664ba76.jpeg",
+      "PackagePath": "staticwebassets/uploads/doctors/certificates/954be381-9fc1-40dd-b73a-b80b1664ba76.jpeg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/doctors/degrees/396da00d-9fe0-4300-93dc-dbc4151b3060.png",
+      "PackagePath": "staticwebassets/uploads/doctors/degrees/396da00d-9fe0-4300-93dc-dbc4151b3060.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/doctors/degrees/500a646a-c655-436b-a476-1e2f89cc0de4.png",
+      "PackagePath": "staticwebassets/uploads/doctors/degrees/500a646a-c655-436b-a476-1e2f89cc0de4.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/specialty-images/69b2a398-386f-4932-8c8f-217ffd12e337.jpeg",
+      "PackagePath": "staticwebassets/uploads/specialty-images/69b2a398-386f-4932-8c8f-217ffd12e337.jpeg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/specialty-images/72ca04e2-2dcf-4916-810e-8306251e2431.png",
+      "PackagePath": "staticwebassets/uploads/specialty-images/72ca04e2-2dcf-4916-810e-8306251e2431.png"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/specialty-images/8161a429-3b4a-4a59-a17f-34b2fdd6e8f1.jpeg",
+      "PackagePath": "staticwebassets/uploads/specialty-images/8161a429-3b4a-4a59-a17f-34b2fdd6e8f1.jpeg"
+    },
+    {
+      "Id": "/Users/macbook/Documents/Important/Dotnet/QLLichHen/backend/backend/wwwroot/uploads/specialty-images/ccd9c966-2d02-49e1-9430-5ea80878af14.jpeg",
+      "PackagePath": "staticwebassets/uploads/specialty-images/ccd9c966-2d02-49e1-9430-5ea80878af14.jpeg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.backend.props",
+      "PackagePath": "build\\backend.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.backend.props",
+      "PackagePath": "buildMultiTargeting\\backend.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.backend.props",
+      "PackagePath": "buildTransitive\\backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

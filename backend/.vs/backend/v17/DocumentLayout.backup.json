@@ -1,0 +1,1825 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\packages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\packages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\packages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\packages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\packages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\packages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\packages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\packages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\packages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\packages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\package\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\package\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\specialtiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\specialtiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\package\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\package\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\package\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\package\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\packageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\packageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\doctor\\doctorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\doctor\\doctorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\package\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\package\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\package\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\package\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\packages\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\packages\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\packages\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\packages\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\doctor\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\doctor\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\packages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\packages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\branches\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\branches\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\branches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\branches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\branches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\branches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\branches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\branches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\branches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\branches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\branchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\branchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\branch\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\branch\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\branch\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\branch\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\branchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\branchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\department\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\department\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\department\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\department\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\specialties\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\specialties\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\specialties\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\specialties\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\specialties\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\specialties\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\specialties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\specialties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\specialties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\specialties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\specialty\\ispecialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\specialty\\ispecialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\specialty\\specialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\specialty\\specialtyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\departments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\departments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\uploadfile\\iuploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\uploadfile\\iuploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\uploadfile\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\uploadfile\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\doctor\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\doctor\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\specialtyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\specialtyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\doctor\\doctordetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\doctor\\doctordetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\doctor\\doctorreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\doctor\\doctorreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\doctor\\doctorscheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\doctor\\doctorscheduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\doctors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\doctors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\doctors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\doctors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\doctors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\doctors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\doctors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\doctors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\doctors\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\doctors\\editdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\doctors\\editschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\doctors\\editschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\doctor\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\doctor\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\doctor\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\doctor\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\doctor\\doctorreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\doctor\\doctorreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\doctor\\doctordetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\doctor\\doctordetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\viewmodel\\usercreateeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\viewmodel\\usercreateeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\userquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\userquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\api\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\api\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\api\\chataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\api\\chataicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\api\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\api\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\ai_chat_log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\ai_chat_log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\shared\\_layoutdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\shared\\_layoutdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\helper\\bcrypthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\helper\\bcrypthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\models\\entities\\adminanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\models\\entities\\adminanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|c:\\users\\leb84\\onedrive\\documents\\fullstackcode\\backend\\backend\\services\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E35D08C-E698-4371-B57A-351CCE8272E3}|backend\\backend.csproj|solutionrelative:backend\\services\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Delete.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Package\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Delete.cshtml",
+              "RelativeToolTip": "backend\\Views\\Package\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T07:38:20.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PackagesController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\PackagesController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\PackagesController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\PackagesController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\PackagesController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:41:13.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\UsersController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\UsersController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\UsersController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\UsersController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:42:12.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Packages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Packages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:34:20.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Create.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Packages\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Create.cshtml",
+              "RelativeToolTip": "backend\\Views\\Packages\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:34:45.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Edit.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Packages\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Edit.cshtml",
+              "RelativeToolTip": "backend\\Views\\Packages\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:34:59.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Details.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Packages\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Details.cshtml",
+              "RelativeToolTip": "backend\\Views\\Packages\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:34:33.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Delete.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Packages\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Packages\\Delete.cshtml*",
+              "RelativeToolTip": "backend\\Views\\Packages\\Delete.cshtml*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:35:20.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\DoctorsController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\DoctorsController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\DoctorsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:41:42.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Edit.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Package\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Edit.cshtml",
+              "RelativeToolTip": "backend\\Views\\Package\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T07:37:55.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Create.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Package\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Create.cshtml",
+              "RelativeToolTip": "backend\\Views\\Package\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T07:37:41.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DoctorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\Doctor\\DoctorViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\Doctor\\DoctorViewModel.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:28:14.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SpecialtiesController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\SpecialtiesController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\SpecialtiesController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\SpecialtiesController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\SpecialtiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:40:32.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Details.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Package\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Details.cshtml",
+              "RelativeToolTip": "backend\\Views\\Package\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T07:37:26.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Package\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Package\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Package\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T07:36:55.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PackageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\PackageViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\PackageViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\PackageViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\PackageViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:32:10.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\DepartmentsController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:40:19.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\BookingsController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\BookingsController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:40:56.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PackageService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Packages\\PackageService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Packages\\PackageService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Packages\\PackageService.cs",
+              "RelativeToolTip": "backend\\Services\\Packages\\PackageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:33:33.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPackageService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Packages\\IPackageService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Packages\\IPackageService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Packages\\IPackageService.cs",
+              "RelativeToolTip": "backend\\Services\\Packages\\IPackageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:32:54.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Packages.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Packages.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Packages.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Packages.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Packages.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:23:57.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Create.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Branches\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Create.cshtml",
+              "RelativeToolTip": "backend\\Views\\Branches\\Create.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T06:56:25.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Details.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Branches\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Details.cshtml",
+              "RelativeToolTip": "backend\\Views\\Branches\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T07:21:16.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Branches\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Branches\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T16:49:09.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BranchesController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\BranchesController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\BranchesController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\BranchesController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\BranchesController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:40:00.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Edit.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Branches\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Edit.cshtml",
+              "RelativeToolTip": "backend\\Views\\Branches\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T06:56:25.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Doctor\\DoctorService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Doctor\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Doctor\\DoctorService.cs",
+              "RelativeToolTip": "backend\\Services\\Doctor\\DoctorService.cs",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAAADgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:42:38.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BranchService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Branch\\BranchService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Branch\\BranchService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Branch\\BranchService.cs",
+              "RelativeToolTip": "backend\\Services\\Branch\\BranchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:32:48.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Delete.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Branches\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Branches\\Delete.cshtml",
+              "RelativeToolTip": "backend\\Views\\Branches\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T06:56:24.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IBranchService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Branch\\IBranchService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Branch\\IBranchService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Branch\\IBranchService.cs",
+              "RelativeToolTip": "backend\\Services\\Branch\\IBranchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:32:40.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Branch.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Branch.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Branch.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:08:36.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BranchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\BranchViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\BranchViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\BranchViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\BranchViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:11:03.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Department\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Department\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Department\\IDepartmentService.cs",
+              "RelativeToolTip": "backend\\Services\\Department\\IDepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:43:46.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Department\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Department\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Department\\DepartmentService.cs",
+              "RelativeToolTip": "backend\\Services\\Department\\DepartmentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:43:45.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PatientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\PatientViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\PatientViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\PatientViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\PatientViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:05:35.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Details.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Specialties\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Details.cshtml",
+              "RelativeToolTip": "backend\\Views\\Specialties\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:42:08.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Edit.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Specialties\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Edit.cshtml",
+              "RelativeToolTip": "backend\\Views\\Specialties\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:43:50.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Create.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Specialties\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Create.cshtml",
+              "RelativeToolTip": "backend\\Views\\Specialties\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:42:21.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Create.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Departments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Create.cshtml",
+              "RelativeToolTip": "backend\\Views\\Departments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:25:10.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Specialties\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Specialties\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:41:35.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Delete.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Specialties\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Specialties\\Delete.cshtml",
+              "RelativeToolTip": "backend\\Views\\Specialties\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:44:04.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ISpecialtyService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Specialty\\ISpecialtyService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Specialty\\ISpecialtyService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Specialty\\ISpecialtyService.cs",
+              "RelativeToolTip": "backend\\Services\\Specialty\\ISpecialtyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:56:36.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SpecialtyService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Specialty\\SpecialtyService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Specialty\\SpecialtyService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Specialty\\SpecialtyService.cs",
+              "RelativeToolTip": "backend\\Services\\Specialty\\SpecialtyService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:56:30.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Departments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Index.cshtml*",
+              "RelativeToolTip": "backend\\Views\\Departments\\Index.cshtml*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:24:42.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Details.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Departments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Details.cshtml",
+              "RelativeToolTip": "backend\\Views\\Departments\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:24:59.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Departments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Delete.cshtml",
+              "RelativeToolTip": "backend\\Views\\Departments\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:25:43.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Departments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Departments\\Edit.cshtml",
+              "RelativeToolTip": "backend\\Views\\Departments\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:25:30.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADIAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:15:11.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IUploadFileService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\UploadFile\\IUploadFileService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\UploadFile\\IUploadFileService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\UploadFile\\IUploadFileService.cs",
+              "RelativeToolTip": "backend\\Services\\UploadFile\\IUploadFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:03:28.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UploadFileService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\UploadFile\\UploadFileService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\UploadFile\\UploadFileService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\UploadFile\\UploadFileService.cs",
+              "RelativeToolTip": "backend\\Services\\UploadFile\\UploadFileService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:03:44.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Doctor\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\Doctor\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\Doctor\\IDoctorService.cs",
+              "RelativeToolTip": "backend\\Services\\Doctor\\IDoctorService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:41:20.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SpecialtyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\SpecialtyViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\SpecialtyViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\SpecialtyViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\SpecialtyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:41:58.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DepartmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\DepartmentViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\DepartmentViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\DepartmentViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\DepartmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T06:41:22.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DoctorReviewViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorReviewViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\Doctor\\DoctorReviewViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorReviewViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\Doctor\\DoctorReviewViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:41:00.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DoctorScheduleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorScheduleViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\Doctor\\DoctorScheduleViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorScheduleViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\Doctor\\DoctorScheduleViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:29:41.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DoctorDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorDetailViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\Doctor\\DoctorDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\Doctor\\DoctorDetailViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\Doctor\\DoctorDetailViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:29:15.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "backend\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:54:37.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\AdminController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\Admin\\AdminController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\Admin\\AdminController.cs",
+              "RelativeToolTip": "backend\\Controllers\\Admin\\AdminController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAzwGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:56:16.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\User\\IUserService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\User\\IUserService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\User\\IUserService.cs",
+              "RelativeToolTip": "backend\\Services\\User\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:52:28.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\User\\UserService.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\User\\UserService.cs",
+              "RelativeToolTip": "backend\\Services\\User\\UserService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAuwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:52:40.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Doctors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Doctors\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T17:08:16.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Create.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Doctors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Create.cshtml",
+              "RelativeToolTip": "backend\\Views\\Doctors\\Create.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAUwJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:26:28.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Doctors\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Delete.cshtml",
+              "RelativeToolTip": "backend\\Views\\Doctors\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:27:02.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Details.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Doctors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Details.cshtml",
+              "RelativeToolTip": "backend\\Views\\Doctors\\Details.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:26:05.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Doctors\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\Edit.cshtml",
+              "RelativeToolTip": "backend\\Views\\Doctors\\Edit.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAQwJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:26:43.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EditSchedule.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\EditSchedule.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Doctors\\EditSchedule.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\EditSchedule.cshtml",
+              "RelativeToolTip": "backend\\Views\\Doctors\\EditSchedule.cshtml",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwLgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:09:53.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EditDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\EditDetails.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Doctors\\EditDetails.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Doctors\\EditDetails.cshtml",
+              "RelativeToolTip": "backend\\Views\\Doctors\\EditDetails.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwLYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:09:58.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\Doctor.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Doctor\\Doctor.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\Doctor.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Doctor\\Doctor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:03:51.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Booking.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Booking.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T17:25:11.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DoctorSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\DoctorSchedule.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Doctor\\DoctorSchedule.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\DoctorSchedule.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Doctor\\DoctorSchedule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:03:58.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DoctorReview.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\DoctorReview.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Doctor\\DoctorReview.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\DoctorReview.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Doctor\\DoctorReview.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:03:58.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "DoctorDetail.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\DoctorDetail.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Doctor\\DoctorDetail.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Doctor\\DoctorDetail.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Doctor\\DoctorDetail.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:03:57.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "backend\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwF0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T09:33:49.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "backend\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T10:07:29.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "backend\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwGAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T10:37:05.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "backend\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T10:08:17.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAQwI8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T10:06:48.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UserCreateEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\UserCreateEditViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ViewModel\\UserCreateEditViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ViewModel\\UserCreateEditViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ViewModel\\UserCreateEditViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:53:03.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "backend\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T17:44:53.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:11:42.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Patient.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:08:26.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Payment.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:08:33.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "backend\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T06:42:40.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "UserQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\UserQuestion.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\UserQuestion.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\UserQuestion.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\UserQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:13:00.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T17:01:52.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ChatAIController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\API\\ChatAIController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\API\\ChatAIController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\API\\ChatAIController.cs",
+              "RelativeToolTip": "backend\\Controllers\\API\\ChatAIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:44:13.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\API\\LoginController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\API\\LoginController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\API\\LoginController.cs",
+              "RelativeToolTip": "backend\\Controllers\\API\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:43:30.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\API\\BookingController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\API\\BookingController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\API\\BookingController.cs",
+              "RelativeToolTip": "backend\\Controllers\\API\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:46:04.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\Data\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "backend\\Data\\MongoDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAxwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:39:54.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Settings\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "backend\\Settings\\MongoDbSettings.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Settings\\MongoDbSettings.cs",
+              "RelativeToolTip": "backend\\Settings\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:00:12.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "AI_Chat_Log.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\AI_Chat_Log.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\AI_Chat_Log.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\AI_Chat_Log.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\AI_Chat_Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:08:35.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:56:26.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Specialty.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Specialty.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Specialty.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Specialty.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Specialty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:08:34.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\Department.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:07:52.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "backend\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T16:46:35.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "backend\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:58:42.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "backend\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T16:46:49.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "backend\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "backend\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAADICAAAAAAAAAAAgwEQCAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-16T07:54:51.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "backend\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T16:49:53.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "_LayoutDoctor.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\_LayoutDoctor.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Shared\\_LayoutDoctor.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\_LayoutDoctor.cshtml",
+              "RelativeToolTip": "backend\\Views\\Shared\\_LayoutDoctor.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAlwHsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T16:47:25.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "backend\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T08:10:40.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "backend\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "backend\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T06:42:41.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "backend\\wwwroot\\js\\script.js",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "backend\\wwwroot\\js\\script.js",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-16T07:54:35.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T06:05:56.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "backend\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:27:52.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:23:16.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "BcryptHelper.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Helper\\BcryptHelper.cs",
+              "RelativeDocumentMoniker": "backend\\Helper\\BcryptHelper.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Helper\\BcryptHelper.cs",
+              "RelativeToolTip": "backend\\Helper\\BcryptHelper.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:21:05.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "AdminAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\AdminAnswer.cs",
+              "RelativeDocumentMoniker": "backend\\Models\\Entities\\AdminAnswer.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Models\\Entities\\AdminAnswer.cs",
+              "RelativeToolTip": "backend\\Models\\Entities\\AdminAnswer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:42:43.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "backend\\Services\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\leb84\\OneDrive\\Documents\\FullStackCode\\backend\\backend\\Services\\AutoMapperProfile.cs",
+              "RelativeToolTip": "backend\\Services\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T06:29:33.182Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
